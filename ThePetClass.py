@@ -24,9 +24,9 @@ class Pet:
     
 pet = Pet()
 
-name = str(input("Input your pet's name: "))
-animal_type = str(input("What is your pet's animal type: "))
-age = int(input("Enter your pet's age: "))
+name = str(input("\033[1;37;40mInput your pet's name: "))
+animal_type = str(input("\033[1;37;40mWhat is your pet's animal type: "))
+age = int(input("\033[1;37;40mEnter your pet's age: "))
 
 
 pet.set_name(name)
@@ -34,6 +34,6 @@ pet.set_animal_type(animal_type)
 pet.set_age(age)
 
 
-print("Your pet's name is", pet.get_name())
-print("It's animal type is a", pet.get_animal_type())
-print("It's age is", pet.get_age())
+print("\n\033[1;33;40mYour pet's name is", pet.get_name())
+print("\n\033[1;34;40mIt's animal type is a", pet.get_animal_type())
+print("\n\033[1;35;40mIt's age is", pet.get_age())
