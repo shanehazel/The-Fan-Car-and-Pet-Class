@@ -21,3 +21,19 @@ class Pet:
     
     def get_age(self):
         return self.__age
+    
+pet = Pet()
+
+name = str(input("Input your pet's name: "))
+animal_type = str(input("What is your pet's animal type: "))
+age = int(input("Enter your pet's age: "))
+
+
+pet.set_name(name)
+pet.set_animal_type(animal_type)
+pet.set_age(age)
+
+
+print("Your pet's name is", pet.get_name())
+print("It's animal type is a", pet.get_animal_type())
+print("It's age is", pet.get_age())

@@ -20,9 +20,9 @@ car = Car(2003, "Run faster")
 print("\n YOUR CAR IS ACCELERATING")
 for x in range(5):
     car.accelerate()
-    print("Your car's current speed is: ", car.get_speed())
+    print("Your car's current speed is:", car.get_speed())
 
 print("\n YOUR CAR IS ON BRAKE")
 for y in range(5):
     car.brake()
-    print("Your car's current speed is: ", car.get_speed())
+    print("Your car's current speed is:", car.get_speed())
